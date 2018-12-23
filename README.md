@@ -25,3 +25,8 @@ git merge <branch>
   
 git clone <url>: url is from github
 
+$ git push --delete <remote_name> <branch_name>: delete remote branch in github
+
+$ git branch -d <branch_name>: delete local branch
+
+Note that in most cases the remote name is origin.
