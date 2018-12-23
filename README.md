@@ -14,8 +14,11 @@ git push: push the changes to github
 git checkout <branch>: change to another branch
 
 git checkout -b <branch>: create a local branch guoxiao/fix-log-metric-npe
+  
 git push --set-upstream origin guoxiao/fix-log-metric-npe: create a upstream branch in github
+
 go to git hub and create a pull request, wait for other people to approve, then merge
+
 git pull: pull the most recent file from github
 
 git merge <branch>
