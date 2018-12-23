@@ -1,20 +1,24 @@
 # dev-note
-git branch
+git branch: tells you the current branch
 
-git status
+git status: tells you what file has been changed, but not commited or not pushed
 
 git log
 
-git commit -m 'adfadfadf'
+git add homepage.html: add the file before commit
 
-git push
+git commit -m 'adfadfadf': commit the file before push to github 
 
-git checkout <branch>
+git push: push the changes to github
 
-git checkout -b <branch>
+git checkout <branch>: change to another branch
 
-git pull
+git checkout -b <branch>: create a local branch guoxiao/fix-log-metric-npe
+git push --set-upstream origin guoxiao/fix-log-metric-npe: create a upstream branch in github
+go to git hub and create a pull request, wait for other people to approve, then merge
+git pull: pull the most recent file from github
 
 git merge <branch>
   
-git clone <url>
+git clone <url>: url is from github
+
