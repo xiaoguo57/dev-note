@@ -1,5 +1,5 @@
 # dev-note
-git branch: tells you the current branch
+git branch: tells you the current branch and lis all branches
 
 git status: tells you what file has been changed, but not commited or not pushed
 
@@ -30,3 +30,13 @@ $ git push --delete <remote_name> <branch_name>: delete remote branch in github
 $ git branch -d <branch_name>: delete local branch
 
 Note that in most cases the remote name is origin.
+
+cd: goes to home directory
+
+ll:long listing
+
+ls: short listing
+
+mv foldername1: change current folder name to foldername1
+
+mv folder1 folder 2: move folder1 to folder2
